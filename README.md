@@ -50,4 +50,4 @@ Mobile computing is also about **balancing trade-offs**: on-device versus cloud 
 
 Finally, it’s about **human-centered design and feedback**. The bHealthy suite shows that mobile computing involves creating interventions that actually help people change behavior or improve wellness, not just recording data.  
 
-So my view has changed: mobile computing is about designing full **end-to-end systems** that combine sensing, modeling, privacy, usability, and feedback. It’s much bigger than just app development — it’s about creating intelligent, adaptive
+So my view has changed: mobile computing is about designing full **end-to-end systems** that combine sensing, modeling, privacy, usability, and feedback. It’s much bigger than just app development — it’s about creating intelligent, adaptive , and context-aware experiences.  
