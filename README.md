@@ -1,5 +1,15 @@
 # Context-Monitoring-App-2K25
 CSE 535 Project 1
+**Name & ASU ID:** Ryan Fernandes — 1219955633
+
+**Brief Description:**  
+This Context Monitoring Android application captures vital signals and symptoms to model the user’s health context. It measures **heart rate** (via camera/flash photoplethysmography), computes **respiratory rate** (from accelerometer-derived chest motion), and records **symptom inputs** through an in-app form. Data are stored locally in an on-device database, enabling viewing, deletion, and basic trend insights. The app’s workflow: (1) acquire signals from sensors/camera, (2) filter/process readings to extract HR/RR, (3) log structured entries (timestamped vitals + symptoms) to local storage, and (4) provide simple feedback views to help users understand their current context.
+
+**Generative AI Acknowledgment:**  
+Portions of the code in this project were generated with assistance from ChatGPT, an AI tool developed by OpenAI.  
+**Reference:** OpenAI. (2024). *ChatGPT* [Large language model]. openai.com/chatgpt  
+**Estimated percentage of code influenced by Generative AI:** 35%
+
 ## 1) Specifications for Health-Dev  
 
 To generate the app code ideally with the Health-Dev framework, I would need to provide a full set of specifications.  
