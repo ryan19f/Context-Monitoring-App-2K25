@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Context Monitor</string>
+    <string name="record_health_data">Record health data</string>
+    <string name="delete_all">Delete all recorded data</string>
+    <string name="start_45s">Start 45s</string>
+    <string name="next_symptoms">Next (Symptoms)</string>
+    <string name="upload_symptoms">UPLOAD SYMPTOMS</string>
+</resources>

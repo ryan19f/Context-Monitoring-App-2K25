@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartHr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start 45s (Heart Rate)" />
+    <Button
+        android:id="@+id/btnCancelHr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel HR"
+        android:enabled="false"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressHr"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:indeterminate="false"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/statusHr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart rate status…"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartRr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start 45s (Respiratory Rate)"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnCancelRr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel RR"
+        android:enabled="false"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressRr"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:indeterminate="false"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/statusRr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Respiratory rate status…"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_symptoms"
+        android:enabled="false"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
+</ScrollView>

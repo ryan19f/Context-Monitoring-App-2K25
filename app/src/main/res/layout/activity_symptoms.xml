@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Ten sliders 0..5 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fever/Chills (0–5)"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderFever" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Cough (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderCough" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Shortness of Breath (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderSob" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Fatigue (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderFatigue" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Muscle/Body Aches (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderAches" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Headache (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderHeadache" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Sore Throat (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderThroat" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Congestion/Runny Nose (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderNasal" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Nausea/Vomiting (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderNausea" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:text="Diarrhea (0–5)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.material.slider.Slider android:id="@+id/sliderDiarrhea" android:layout_width="match_parent" android:layout_height="wrap_content" android:valueFrom="0" android:valueTo="5" android:stepSize="1"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_symptoms"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+</ScrollView>
