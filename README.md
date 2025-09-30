@@ -1,5 +1,6 @@
 # Context-Monitoring-App-2K25
-CSE 535 Project 1
+CSE 535 Project 1.
+
 **Name & ASU ID:** Ryan Fernandes — 1219955633
 
 **Brief Description:**  
